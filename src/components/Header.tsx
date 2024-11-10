@@ -47,13 +47,13 @@ export function Header () {
             />
           </div>
           <div className={`${menuClassName} w-full lg:w-auto nav-links duration-200 lg:static absolute min-h-[40vh] lg:min-h-fit bg-primaryBlue lg:bg-darkBlue -z-10 lg:z-0 left-0 flex items-center justify-center`}>
-            <ul className='flex lg:flex-row flex-col gap-x-10 items-center text-white justify-evenly gap-y-10'>
+            <ul className='flex lg:flex-row flex-col gap-x-10 items-center text-gray-300 justify-evenly gap-y-10'>
               {
                 navOptions.map((option) => {
                   const Icon = option.icon
                   return (
                     <a href={`#${option.name}`}>
-                      <li key={option.name} className="transition flex items-center gap-x-2 px-3 py-3 rounded-2xl hover:bg-blue-800 stroke-2 stroke-transparent">
+                      <li key={option.name} className="transition flex items-center gap-x-2 px-3 py-3 rounded-2xl hover:bg-blue-800 hover:text-white stroke-transparent">
                         <Icon className="w-6 h-6" />
                         <p  className='transition'>{option.name}</p>
                       </li>
