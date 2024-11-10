@@ -7,7 +7,9 @@ export default {
     extend: {
       colors: {
         primaryBlue: "#179AFC",
-        darkBlue: "#061028"
+        darkBlue: "#061028",
+        gradientPurple: "#260D52",
+        gradientDarkPurple: "#180F3A"
       }
     },
   },
