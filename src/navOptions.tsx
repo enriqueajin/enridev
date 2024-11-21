@@ -1,6 +1,6 @@
-import { TbCodeDots } from "react-icons/tb";
 import { BsPersonLinesFill } from "react-icons/bs";
 import { AiFillMessage } from "react-icons/ai";
+import { FaCube } from "react-icons/fa";
 
 export interface NavOptions {
   name: string,
@@ -10,7 +10,7 @@ export interface NavOptions {
 export const navOptions: NavOptions[] = [
   {
     name: 'Projects',
-    icon: TbCodeDots
+    icon: FaCube
   }, 
   {
     name: 'About me',
