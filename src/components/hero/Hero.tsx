@@ -10,7 +10,7 @@ export function Hero () {
             <span className='text-white'>I create innovative </span>
             <span className='text-primaryBlue'>software solutions</span>
           </h1>
-          <a href="#contact">
+          <a href="#Contact">
             <button className='bg-primaryBlue rounded-lg px-8 py-3 font-bold hover:-translate-y-1 duration-300 hover:scale-110'>
               Contact me
             </button>
