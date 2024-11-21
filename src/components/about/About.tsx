@@ -2,8 +2,8 @@ import { FaCheckCircle } from "react-icons/fa";
 
 export function About () {
   return (
-    <section className='flex flex-col w-full bg-darkPurple text-white items-center'>
-      <h1 id='About me' className='font-extrabold text-balance text-3xl md:text-4xl lg:text-5xl mt-20'>
+    <section id='About me' className='flex flex-col w-full bg-darkPurple text-white items-center'>
+      <h1 className='font-extrabold text-balance text-3xl md:text-4xl lg:text-5xl mt-20'>
         About me
       </h1>
       {/* Grid cointainer */}
