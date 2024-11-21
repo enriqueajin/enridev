@@ -7,7 +7,7 @@ export function Contact () {
       <h1 className='font-extrabold text-balance text-3xl md:text-4xl lg:text-5xl mt-20 pb-16'>
         Contact
       </h1>
-      <div className='w-[90%] lg:w-[70%] gap-14 grid grid-cols-1 md:grid-cols-2'>
+      <div className='w-[90%] lg:w-[70%] gap-14 grid grid-cols-1 md:grid-cols-2 mb-16'>
         <ContactPicture />
         <ContactButtons />
       </div>
