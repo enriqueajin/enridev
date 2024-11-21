@@ -14,7 +14,7 @@ export function ProjectItem (
     sourceCodeUrl: string;
   }) {
   return (
-    <div className='flex flex-col w-full  max-w-80 rounded-2xl bg-primaryGray items-center px-5 py-5 gap-y-4'>
+    <div className='flex flex-col w-full  max-w-80 rounded-2xl bg-cardBlue border border-cardBorder items-center px-5 py-5 gap-y-4'>
       <p className='font-bold text-xl'>{title}</p>
       <div className=''>
         <img className='w-60 h-60 object-cover object-top'

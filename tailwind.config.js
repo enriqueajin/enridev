@@ -12,9 +12,12 @@ export default {
         gradientPurple: "#260D52",
         gradientDarkPurple: "#180F3A",
         primaryGray: "#1E2021",
-        darkGray: "#18171D",
+        darkGray: "#111014",
         primaryPurple: "#272868",
-        darkPurple: "#1F1549"
+        darkPurple: "#1F1549",
+        secondaryDarkBlue: "#070913",
+        cardBlue: "#0d0f19",
+        cardBorder: "#242832"
       }
     },
   },
