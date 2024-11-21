@@ -2,7 +2,7 @@ export function Hero () {
   return (
     <section className ='flex justify-center w-full bg-gradient-to-b from-darkBlue from-5% via-gradientPurple via-40% to-gradientDarkPurple to-95%'>
       {/* Main container */}
-      <div className="w-[80%] gap-y-12 flex flex-col md:flex-row items-center justify-center py-16">
+      <div className="w-[80%] gap-y-12 flex flex-col md:flex-row items-center justify-center py-20">
       {/* Hero's text and contact button */}
         <div className='md:w-[65%] lg:w-2/4 flex flex-col gap-y-5 text-white items-start'>
           <p className='font-normal text-xl'>I am Enrique Ajin</p>

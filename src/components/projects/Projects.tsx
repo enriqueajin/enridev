@@ -8,7 +8,7 @@ export function Projects () {
         My projects
       </h1>
       {/* Projects grid */}
-      <div className='px-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 place-items-center gap-7 my-16'>
+      <div className='px-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 place-items-center gap-7 mt-16 mb-20'>
         {
           projectsData.map((project) => {
           const { title, imageUrl, siteUrl, sourceCodeUrl } = project
