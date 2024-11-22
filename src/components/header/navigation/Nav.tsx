@@ -10,7 +10,7 @@ export function Nav () {
     <nav className="w-[90%] h-24 flex items-center justify-between mx-auto">
       <img 
         className='w-52'
-        src='../public/enridev-logo.svg'
+        src='/enridev-logo.svg'
         alt="enridev logo"
       />
       <NavElements isMobileMenuOpen={isMobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />

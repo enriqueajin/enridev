@@ -16,7 +16,7 @@ export function About () {
           imgAlt='Minimalist illustration of people working at an office.' 
         />
         <CardPicture 
-          imgLink='../public/enrique-graduation.jpg'
+          imgLink='/enrique-graduation.jpg'
           imgAlt='Enrique in his graduation wearing a toga and holding his diploma.' 
         />
         <EducationCard />

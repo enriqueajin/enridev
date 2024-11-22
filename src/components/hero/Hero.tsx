@@ -20,7 +20,7 @@ export function Hero () {
         <div className='md:w-[35%] lg:w-2/4 max-w-96'>
           <img 
             className='max-full rounded-2xl'
-            src='../../public/enrique-ajin.jpg'
+            src='/enrique-ajin.jpg'
             alt='Photo of Enrique wearing a gray suit and a maroon shirt.'
           />
         </div>
