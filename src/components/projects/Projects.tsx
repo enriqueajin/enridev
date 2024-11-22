@@ -4,7 +4,7 @@ import { ProjectItem } from "./ProjectItem"
 export function Projects () {
   return (
     <section id='Projects' className='flex flex-col w-full bg-secondaryDarkBlue text-white items-center'>
-      <h1 className='font-extrabold text-balance text-3xl md:text-4xl lg:text-5xl leading-tight mt-20'>
+      <h1 className='font-extrabold text-balance text-3xl md:text-4xl lg:text-5xl leading-tight mt-10'>
         My projects
       </h1>
       {/* Projects grid */}
