@@ -14,6 +14,7 @@ export function Projects () {
           const { title, imageUrl, siteUrl, sourceCodeUrl } = project
           return (
               <ProjectItem 
+                key={imageUrl}
                 title={title}
                 imageUrl={imageUrl}
                 siteUrl={siteUrl}
