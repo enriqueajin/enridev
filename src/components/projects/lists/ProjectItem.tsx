@@ -16,10 +16,16 @@ export function ProjectItem (
   return (
     <div className='flex flex-col w-full  max-w-80 rounded-2xl bg-cardBlue border border-cardBorder items-center px-5 py-5 gap-y-4'>
       <p className='font-bold text-xl'>{title}</p>
-      <div className=''>
+      <div className='relative'>
         <img className='w-60 h-60 object-cover object-top'
           src={imageUrl}
         />
+        {
+          title === 'PomodoroApp' &&
+          <div className="flex justify-center items-center top-0 w-full h-full absolute bg-slate-900 opacity-80 rounded-lg z-10">
+            <p className='text-2xl text-gray-300'>In progress...</p>
+          </div>
+        }
       </div>
       <div className={`w-full grid gap-x-3
         ${siteUrl ? 'grid-cols-2' : 'grid-cols-1'}
