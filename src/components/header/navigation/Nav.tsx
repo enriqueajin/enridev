@@ -8,17 +8,13 @@ export function Nav () {
   
   return (
     <nav className="w-[90%] h-24 flex items-center justify-between mx-auto">
-      {/* enridev logo */}
       <img 
         className='w-52'
-        src='../public/enridev-logo.svg'
+        src='/enridev-logo.svg'
         alt="enridev logo"
       />
-      {/* Navigation elements */}
-      <NavElements isMobileMenuOpen={isMobileMenuOpen} />
-      {/* Social media links */}
+      <NavElements isMobileMenuOpen={isMobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
       <Socials />
-      {/* Burguer navigation menu (mobile and tablet) */}
       <MobileMenuIcon isMobileMenuOpen={isMobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
     </nav>
   )
