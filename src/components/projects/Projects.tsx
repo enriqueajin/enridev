@@ -1,4 +1,4 @@
-import { ProjectList } from "./ProjectList";
+import { ProjectGrid } from "./lists/ProjectGrid";
 
 export function Projects () {
   return (
@@ -6,7 +6,7 @@ export function Projects () {
       <h1 className='font-extrabold text-balance text-3xl md:text-4xl lg:text-5xl leading-tight mt-10'>
         My projects
       </h1>
-      <ProjectList />
+      <ProjectGrid />
     </section>
   )
 }
