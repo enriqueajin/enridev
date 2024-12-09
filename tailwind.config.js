@@ -1,3 +1,5 @@
+import { transform } from 'typescript';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -18,6 +20,15 @@ export default {
         secondaryDarkBlue: "#070913",
         cardBlue: "#0d0f19",
         cardBorder: "#242832"
+      },
+      keyframes: {
+        sliding: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(0)' }
+        }
+      },
+      animation: {
+        'slide-in': 'sliding 2s'
       }
     },
   },
