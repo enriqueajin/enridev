@@ -14,8 +14,8 @@ export function ProjectGrid () {
       <div className='animate-slide-in'>
         {
           activeChip == 0
-            ? <ProjectList filterBy='Web' />
-            : <ProjectList filterBy='Mobile' />
+            ? <ProjectList filterBy='Mobile' />
+            : <ProjectList filterBy='Web' />
         }
       </div>
     </div>

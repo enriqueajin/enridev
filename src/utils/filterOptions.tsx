@@ -9,13 +9,13 @@ export interface FilterOptions {
 
 export const filterOptions: FilterOptions[] = [
   {
-    name: 'Web',
-    icon: MdOutlineWeb,
-    isActive: false
-  }, 
-  {
     name: 'Mobile',
     icon: FaMobileAlt,
+    isActive: false
+  },
+  {
+    name: 'Web',
+    icon: MdOutlineWeb,
     isActive: false
   }
 ];
