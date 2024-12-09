@@ -9,7 +9,7 @@ export function CardPicture ({
 }) {
   return (
     <div className='min-w-48 h-48'>
-      <img 
+      <img
         className={`w-full h-full rounded-full object-cover ${className}`}
         src={imgLink}
         alt={imgAlt}
