@@ -8,9 +8,9 @@ export function CardPicture ({
   imgAlt: string 
 }) {
   return (
-    <div className='relative col-span-2 hidden sm:block w-full max-h-96'>
+    <div className='min-w-48 h-48'>
       <img 
-        className={`w-full h-full rounded-xl object-cover ${className}`}
+        className={`w-full h-full rounded-full object-cover ${className}`}
         src={imgLink}
         alt={imgAlt}
       />

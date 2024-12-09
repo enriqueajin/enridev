@@ -29,7 +29,6 @@ export function Hero () {
             </button>
           </a>
       </div>
-        
     </section>
   )
 }
