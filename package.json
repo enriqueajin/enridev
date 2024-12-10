@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "tailwind": "npx tailwindcss -i ./src/index.css -o ./styles.css --watch",
-    "build": "npm run tailwind && tsc -b && vite build",
+    "tailwindprod": "npm install tailwindcss && npx tailwindcss init && npm run tailwind && npm uninstall tailwindcss",
+    "build": "npm run tailwindprod && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
