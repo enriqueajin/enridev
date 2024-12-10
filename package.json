@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "tailwind": "npx tailwindcss -i ./src/index.css -o ./styles.css --watch",
+    "build": "npm run tailwind && tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "tailwind": "npx tailwindcss -i ./src/index.css -o ./styles.css --watch"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
