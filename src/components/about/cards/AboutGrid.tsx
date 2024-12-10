@@ -4,7 +4,7 @@ import { BulletCard } from "./BulletCard";
 export function AboutGrid() {
   return (
     <div className='grid grid-cols-1 lg:grid-cols-2 w-11/12 xl:w-9/12 mt-16 mb-20 gap-5'>
-      <BulletCard cardTitle='Experiencia' imgUrl='/enri-at-desk.jpg'>
+      <BulletCard cardTitle='Experience' imgUrl='/enri-at-desk.jpg'>
         <div className='flex flex-grow flex-col gap-y-5'>
           <div className='flex items-start gap-x-3'>
             <FaCheckCircle className='min-w-8 min-h-8 fill-primaryBlue rounded-full' />
@@ -16,7 +16,7 @@ export function AboutGrid() {
           </div>
         </div>
       </BulletCard>
-      <BulletCard cardTitle='Educación' imgUrl='/enrique-graduation.jpg'>
+      <BulletCard cardTitle='Education' imgUrl='/enrique-graduation.jpg'>
         <div className='flex flex-grow flex-col gap-y-5'>
           <div className='flex items-start gap-x-3'>
             <FaCheckCircle className='min-w-8 min-h-8 fill-primaryBlue rounded-full' />
