@@ -4,6 +4,7 @@ import { Header } from "./components/header/Header";
 import { Hero } from "./components/hero/Hero";
 import { Projects } from "./components/projects/Projects";
 import { Footer } from "./components/footer/Footer";
+import { Skills } from "./components/skills/Skills";
 
 export function App () {
   return (
@@ -12,6 +13,7 @@ export function App () {
       <Hero />
       <Projects />
       <About />
+      <Skills />
       <Contact />
       <Footer />
     </main>
