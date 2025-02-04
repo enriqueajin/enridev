@@ -14,7 +14,7 @@ export function Hero () {
           <div className='w-48 h-48 mx-auto'>
             <img 
               className='w-full h-full rounded-full object-cover'
-              src='/enri-sideway.jpg'
+              src='/enri-sideway.webp'
               alt='Photo of Enrique wearing a gray suit and a maroon shirt.'
             />
           </div>

@@ -48,13 +48,13 @@ export function Form () {
         className='gap-3 flex flex-col' 
         onSubmit={handleSubmit(onSubmit)}
       >
-        <div>
+        <div className=''>
           <input 
             {...register('name')}
             type='text'
             name='name'
             placeholder='Name'
-            className='w-full text-gray-600 placeholder:text-gray-400 h-12 rounded-lg px-4 font-bold'>
+            className='w-full bg-white text-gray-600 placeholder:text-gray-400 h-12 rounded-lg px-4 font-bold'>
           </input>
           {errors.name && (
             <p className='text-red-500 mt-1 text-sm'>{errors.name?.message}</p>
@@ -66,7 +66,7 @@ export function Form () {
             type='text' 
             name='email' 
             placeholder='Email'
-            className='w-full text-gray-600 placeholder:text-gray-400 h-12 rounded-lg px-4 font-bold'>
+            className='w-full bg-white text-gray-600 placeholder:text-gray-400 h-12 rounded-lg px-4 font-bold'>
           </input>
           {errors.email && (
             <p className='text-red-500 mt-1 text-sm'>{errors.email?.message}</p>
@@ -78,7 +78,7 @@ export function Form () {
             rows={3}
             name='message'
             placeholder='Message'
-            className='w-full text-base text-gray-600 placeholder:text-gray-400 rounded-lg px-4 py-2 font-bold border focus:ring-primaryBlue border-gray-50 focus:border-primaryBlue'>
+            className='w-full bg-white text-base text-gray-600 placeholder:text-gray-400 rounded-lg px-4 py-2 font-bold border focus:ring-primaryBlue border-gray-50 focus:border-primaryBlue'>
           </textarea>
           {errors.message && (
             <p className='text-red-500 text-sm'>{errors.message?.message}</p>
