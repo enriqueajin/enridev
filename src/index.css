@@ -1,6 +1,25 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+@import "tailwindcss";
+
+@theme {
+  --color-primaryBlue: #179AFC;
+  --color-secondaryBlue: #004AC0;
+  --color-darkBlue: #061028;
+  --color-gradientPurple: #260D52;
+  --color-gradientDarkPurple: #180F3A;
+  --color-primaryGray: #1E2021;
+  --color-darkGray: #111014;
+  --color-primaryPurple: #272868;
+  --color-darkPurple: #1F1549;
+  --color-secondaryDarkBlue: #070913;
+  --color-cardBlue: #0d0f19;
+  --color-cardBorder: #242832;
+}
+
+
 
 html {
   scroll-behavior: smooth;
