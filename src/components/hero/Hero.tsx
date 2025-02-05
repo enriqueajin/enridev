@@ -8,10 +8,10 @@ export function Hero () {
     <section className ={`flex flex-col h-[calc(100vh-96px)] items-center 
     justify-center w-full text-center text-white
     `}>
-      <div className="absolute inset-0 top-10 -z-10 h-full w-full bg-darkBlue 
+      <div className="absolute inset-0 -z-10 w-full bg-darkBlue 
       bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),
       linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:60px_24px]">
-        <div className="absolute left-0 right-0 top-40 -z-10 m-auto h-[810px] w-[810px] 
+        <div className="absolute left-0 right-0 top-40 -z-10 m-auto h-full w-full lg:h-[810px] lg:w-[810px] 
         rounded-full bg-secondaryBlue opacity-40 blur-[100px]">
         </div>
       </div>
@@ -52,7 +52,7 @@ export function Hero () {
 
           <a href="#Contact">
             <button className='font-normal text-2xl border border-white rounded-lg px-8 py-3 
-             hover:cursor-pointer duration-300 hover:scale-110'>
+             hover:cursor-pointer duration-300 hover:scale-110 mb-15'>
               Contact me
             </button>
           </a>
