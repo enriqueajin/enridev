@@ -1,7 +1,4 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -17,6 +14,8 @@
   --color-secondaryDarkBlue: #070913;
   --color-cardBlue: #0d0f19;
   --color-cardBorder: #242832;
+
+  --font-outfit: "Outfit", serif;
 }
 
 
@@ -27,6 +26,6 @@ html {
 
 @layer base {
   body {
-    font-family: montserrat, sans-serif, system-ui, sans-serif;
+    font-family: outfit, sans-serif, system-ui, sans-serif;
   }
 }
