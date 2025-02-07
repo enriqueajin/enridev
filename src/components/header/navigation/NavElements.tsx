@@ -10,7 +10,7 @@ export function NavElements ({
 }) {
   const menuClassName = isMobileMenuOpen ? 'top-24' : 'top-[-100%]';
   return(
-    <div className={`${menuClassName} w-full lg:w-auto nav-links duration-200 lg:static absolute min-h-[45vh] lg:min-h-fit bg-primaryBlue lg:bg-darkBlue z-10 lg:z-0 left-0 flex items-center justify-center`}>
+    <div className={`${menuClassName} w-full lg:w-auto nav-links duration-200 lg:static absolute min-h-[45vh] lg:min-h-fit bg-blue-600 lg:bg-gray-900 z-10 lg:z-0 left-0 flex items-center justify-center`}>
       <ul className='flex lg:flex-row flex-col gap-x-10 items-center text-white font-bold justify-evenly gap-y-10'>
         {
           navOptions.map((option) => {
