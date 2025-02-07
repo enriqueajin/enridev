@@ -30,15 +30,15 @@ export function Hero () {
 
 
           <div className='flex flex-col sm:flex-row gap-5 font-normal text-2xl mb-5 items-center'>
-            <div className='flex gap-2'>
+            <div className='flex items-center gap-2'>
               <FaAndroid className='w-6 h-6 text-green-500' />
               <p>Android</p>
             </div>
-            <div className='flex gap-2'>
+            <div className='flex items-center gap-2'>
               <FaReact className='w-6 h-6 text-cyan-500' />
               <p>React</p>
             </div>
-            <div className='flex gap-2'>
+            <div className='flex items-center gap-2'>
               <SiSpringboot className='w-6 h-6 text-green-500' />
               <p>Spring Boot</p>
             </div>
