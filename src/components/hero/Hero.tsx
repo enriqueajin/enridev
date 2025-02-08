@@ -29,7 +29,7 @@ export function Hero () {
           </p>
 
 
-          <div className='flex flex-col sm:flex-row gap-5 font-normal text-2xl mb-5 items-center'>
+          <div className='flex flex-col sm:flex-row gap-5 font-normal text-xl md:text-2xl mb-5 items-center'>
             <div className='flex items-center gap-2'>
               <FaAndroid className='w-6 h-6 text-green-500' />
               <p>Android</p>
@@ -45,8 +45,8 @@ export function Hero () {
           </div>
 
           <a href="#Contact">
-            <button className='font-normal text-2xl border border-white rounded-lg px-8 py-3 
-             hover:cursor-pointer duration-300 hover:scale-110'>
+            <button className='font-normal text-xl md:text-2xl border border-white 
+            rounded-lg px-6 py-2 hover:cursor-pointer duration-300 hover:scale-110'>
               Contact me
             </button>
           </a>
